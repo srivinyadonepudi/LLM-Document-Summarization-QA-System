@@ -1,0 +1,9 @@
+name: "summarization_model"
+platform: "tensorrt_plan"
+max_batch_size: 1
+input [
+  { name: "input_ids", data_type: TYPE_INT32, dims: [ -1 ] }
+]
+output [
+  { name: "output_ids", data_type: TYPE_INT32, dims: [ -1 ] }
+]
