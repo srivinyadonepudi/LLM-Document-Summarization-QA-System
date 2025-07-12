@@ -19,3 +19,12 @@ git clone https://github.com/srivinyadonepudi/LLM-Document-Summarization-QA-Syst
 cd LLM-Document-Summarization-QA-System
 pip install -r requirements.txt
 streamlit run app.py
+```
+Docker Usage
+```bash
+docker build -t llm-qa-app .
+docker run -p 8501:8501 llm-qa-app
+```
+
+
+
